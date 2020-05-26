@@ -1,14 +1,19 @@
 [user]
-  name = Jay Newstrom
-  email = jaynewstrom@gmail.com
-  signingkey = 53693DCB3949977D
+  name = David McRae
+  email = david.mcrae.jr@me.com
+ 
 [push]
   default = current
 [core]
   excludesfile = ~/.gitignore
   untrackedCache = true
-[commit]
-  gpgsign = true
+
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 
 [color]
   # Use colors in Git commands that are capable of colored output when

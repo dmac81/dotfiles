@@ -4,7 +4,7 @@
 
 #### First Time Download
 
- - `curl -L https://github.com/JayNewstrom/dotfiles/archive/master.zip --output dotfiles.zip`
+ - `curl -L https://github.com/dmac81/dotfiles/archive/master.zip --output dotfiles.zip`
  - `unzip dotfiles.zip`
  - `cd dotfiles-master`
  - Now you can run the steps under Run
