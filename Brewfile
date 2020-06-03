@@ -1,3 +1,5 @@
+mas 'Xcode', id: 497799835
+
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-drivers'
@@ -40,7 +42,7 @@ cask 'google-cloud-sdk'
 cask 'jetbrains-toolbox'
 cask 'microsoft-office'
 cask 'omnigraffle'
-cask 'paintcode'
+# cask 'paintcode'
 cask 'reflector'
 cask 'scrivener'
 cask 'signal'
@@ -63,6 +65,5 @@ cask 'zoomus'
 # Mac App Store
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Xcode', id: 497799835
 mas 'DuckDuckGo Privacy Essentials', id: 1482920575
 mas 'Bible Study', id: 472790630
